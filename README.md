@@ -32,6 +32,7 @@
 | 科研分析 | literature-review | 文献调研与综述 | 待补充 |
 | 科研分析 | paper-analysis | 论文阅读与分析 | 待补充 |
 | 科研分析 | idea-brainstorming | 科研想法探索 | 待补充 |
+| Agent 协作 | [context-audit](agent/context-audit.md) | 审计自定义指令、Skills 与记忆等上下文配置，按收益排序提出清理建议 | 已收录 |
 | Agent 协作 | task-planning | 任务拆解与执行规划 | 待补充 |
 | Agent 协作 | multi-agent-collaboration | 多 Agent 分工与协作 | 待补充 |
 | Agent 协作 | skill-creation | Skill 创建 | 待补充 |
@@ -41,7 +42,7 @@
 
 ## 目录规划
 
-以下为目标目录结构。目前已收录 README 和 `coding/understand-project.md`，其余文件将在对应 Prompt 完成后添加。
+以下为目标目录结构。目前已收录 README、`coding/understand-project.md` 和 `agent/context-audit.md`，其余文件将在对应 Prompt 完成后添加。
 
 ```text
 prompt-cookbook/
@@ -56,6 +57,7 @@ prompt-cookbook/
 │   ├── paper-analysis.md
 │   └── idea-brainstorming.md
 ├── agent/
+│   ├── context-audit.md
 │   ├── task-planning.md
 │   ├── multi-agent-collaboration.md
 │   └── skill-creation.md
